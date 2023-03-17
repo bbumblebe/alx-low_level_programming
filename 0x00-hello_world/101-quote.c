@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-	char a[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
+	char a[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
 	int i = 0;
 
 	while (a[i] != '\0')
