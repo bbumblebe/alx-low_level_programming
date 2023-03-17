@@ -18,10 +18,10 @@ printf("size of an int: %u", (uint32_t)sizeof(b));
 printf("size of a long int: %u", (uint32_t)sizeof(c));
 printf("size of a long long int: %u", (uint32_t)sizeof(c));
 printf("size of a float: %u", (uint32_t)sizeof(d));
-printf("size of a char: %u", (uint64_t)sizeof(a));
-printf("size of an int: %u", (uint64_t)sizeof(b));
-printf("size of a long int: %u", (uint64_t)sizeof(c));
-printf("size of a long long int: %u", (uint64_t)sizeof(c));
-printf("size of a float: %u", (uint64_t)sizeof(d));
+
+
+
+
+
 	return (0);
 }
