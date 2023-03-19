@@ -5,17 +5,12 @@
  */
 int main(void)
 {
-	char letters[26];
+	char letters[] = "abcdefghijklmnopqrstuvwxyz";
 
-	for (int i = 0; i < 26; i++)
+	for (int i = 0; letters[i] != '\0'; i++)
 	{
-		letters[i] = 'a' + i;
+		putchar(letters[i]);
 	}
-	for (int i = 0; i < 26; i++)
-	{
-		printf("%c ", letters[i]);
-	}
-printf("\n");
-
+	putchar('\n')
 return (0);
 }
