@@ -1,5 +1,5 @@
 #include <stdio.h>
-/** 
+/**
  * main - This program prints the alphabet
  * Return: the return value is 0
  */
@@ -11,6 +11,6 @@ int main(void)
 	{
 		putchar(letters[i]);
 	}
-	putchar('\n')
+	putchar('\n');
 return (0);
 }
