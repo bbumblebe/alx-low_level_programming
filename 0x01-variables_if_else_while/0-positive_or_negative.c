@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <time.h>
+#include <stdlib.h>
 /**
  * main - this code helps us determine the sign of n
  * Return: Returns value is 0
