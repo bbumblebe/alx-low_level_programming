@@ -5,11 +5,11 @@
  */
 int main(void)
 {
-	char letters[] = "abcdefghijklmnopqrstuvwxyz";
+	char l[] = "abcdefghijklmnopqrstuvwxyz";
 
-	for (int i = 0; letters[i] != '\0'; i++)
+	for (int i = 0; l[i] != '\0'; i++)
 	{
-		putchar(letters[i]);
+		putchar(l[i]);
 	}
 	putchar('\n');
 return (0);
