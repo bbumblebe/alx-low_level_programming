@@ -6,8 +6,9 @@
 int main(void)
 {
 	char l[] = "abcdefghijklmnopqrstuvwxyz";
+	int i;
 
-	for (int i = 0; l[i] != '\0'; i++)
+	for (i = 0; l[i] != '\0'; i++)
 	{
 		putchar(l[i]);
 	}
