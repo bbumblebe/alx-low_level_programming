@@ -12,7 +12,7 @@ int main(void)
 
 	{
 		putchar(a[i]);
-		if (a[i] != '9')
+		if (a[i] >= '9')
 	{
 		putchar(',');
 		putchar(' ');
