@@ -10,14 +10,13 @@ int main(void)
 	int j;
 
 	for (i = 0; a[i] != '\0'; i++)
-	{
-	for (j = 0; a[j] != '\0'; j++)
+
 	{
 		putchar(a[i]);
-		putchar(a[j]);
+		putchar(',');
 		putchar(' ');
 	}
-	}
+
 	putchar('\n');
 	return (0);
 }
