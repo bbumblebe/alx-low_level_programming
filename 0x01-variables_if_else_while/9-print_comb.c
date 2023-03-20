@@ -12,9 +12,12 @@ int main(void)
 
 	{
 		putchar(a[i]);
+		if (a[i] != '9')
+	{
+		putchar(',');
+		putchar(' ');
 	}
-	putchar(',');
-	putchar(' ');
+	}
 	putchar('\n');
 	return (0);
 }
