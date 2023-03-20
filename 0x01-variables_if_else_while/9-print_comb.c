@@ -5,14 +5,13 @@
  */
 int main(void)
 {
-	int a[] = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9'};
 	int i;
 
-	for (i = 0; a[i] != '\0'; i++)
+	for (i = 0; i < 10; i++)
 
 	{
-		putchar(a[i]);
-		if (a[i] >= '9')
+		putchar(i + '0');
+		if (i != '9')
 	{
 		putchar(',');
 		putchar(' ');
