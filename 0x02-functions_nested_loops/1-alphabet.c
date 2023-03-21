@@ -6,13 +6,11 @@
  */
 int main(void)
 {
-	char a[] = "abcdefghijklmnopqrstuvwxyz";
-	int i;
+	char i;
 
-	for (i = 0; a[i] != '\0'; i++)
+	for (i = 'a'; i <= 'z'; i++)
 	{
-		putchar(a[i]);
+		_putchar(i);
 	}
-	putchar('\n');
-	return (0);
+	_putchar('\n');
 }
