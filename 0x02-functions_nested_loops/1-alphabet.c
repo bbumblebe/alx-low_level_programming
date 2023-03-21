@@ -4,7 +4,7 @@
  * main - prints alphabet
  * Return: the return value is 0
  */
-int main(void)
+void print_alphabet(void);
 {
 	char i;
 
