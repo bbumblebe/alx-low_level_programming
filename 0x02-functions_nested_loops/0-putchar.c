@@ -1,0 +1,16 @@
+#include <stdio.h>
+/**
+ * main - this program print 0-putchar.c
+ * Return: the return value is 0
+ */
+int main(void)
+{
+	int a[] = "0-putchar.c";
+	int i;
+
+	for (i = 0; a[i] != '\0'; i++)
+	{
+		putchar(a[i]);
+	}
+	return (0);
+}
