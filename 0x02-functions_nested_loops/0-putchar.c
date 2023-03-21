@@ -5,12 +5,13 @@
  */
 int main(void)
 {
-	char a[] = "0-putchar.c";
+	char a[] = "_putchar";
 	int i;
 
 	for (i = 0; a[i] != '\0'; i++)
 	{
 		putchar(a[i]);
 	}
+	putchar('\n');
 	return (0);
 }
