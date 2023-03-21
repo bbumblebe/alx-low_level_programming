@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-	int a[] = "0-putchar.c";
+	char a[] = "0-putchar.c";
 	int i;
 
 	for (i = 0; a[i] != '\0'; i++)
