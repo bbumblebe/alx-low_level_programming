@@ -7,9 +7,8 @@
  */
 int _isupper(int c)
 {
-	char c, a, z;
 
-	if (('c' > 'a') && ('c' < 'z)')
+	if (('c' > 'a') && ('c' < 'z'))
 	{
 		return (0);
 	}
