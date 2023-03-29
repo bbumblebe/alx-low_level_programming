@@ -17,5 +17,6 @@ void puts2(char *str)
 			i++;
 		}
 	}
-	/*_putchar('\n');*/
+	if (str[i] != '.')
+	_putchar('\n');
 }
