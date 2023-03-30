@@ -3,21 +3,28 @@
  * char *_strcat(char *dest, char *src) - string cat
  * @dest: pointer to the destination string
  * @src: pointer to souce
+ * *_strcat - des
+ * _strcat - 7
  * return: pointer
  */
 
 char *_strcat(char *dest, char *src)
 {
-	int i, j;
+	int l = 0, i;
 
-	for (i = 0; src[i] != '\0'; i++);
-	for (j = 0; src[j] != '\0'; j++)
+	while (dest[l])
 	{
-		dest[i] = src[j];
-		i++;
+		l++;
 	}
-	dest[i] = '\0';
 
+	for (i = 0; src[i] != 0; i++)
+	{
+		dest[l] = src[i];
+		l++;
+
+
+	}
+	dest[l] = '\0';
 	return dest;
 }
 
