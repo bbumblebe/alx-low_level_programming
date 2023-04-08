@@ -5,7 +5,7 @@ int check(int n, int i);
  * @n: interger
  * Return: 1 or 0
  */
-int is_prime_number(int n)
+int is_prime_number (int n)
 {
 	return(check(n, 1));
 }
@@ -25,7 +25,7 @@ int check(int n, int i)
 	{
 		return (0);
 	}
-	if ((n/i) < i)
+	if ((n / i) < i)
 	{
 		return (1);
 	}
