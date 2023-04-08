@@ -25,7 +25,7 @@ int check(int n, int i)
 	{
 		return (0);
 	}
-	if ((n / i) < i)
+	if ((n / i) == 1)
 	{
 		return (1);
 	}
