@@ -1,8 +1,13 @@
 #include "main.h"
+/**
+ * mp - function converting negative numbers to positive
+ * @last: last digit of n
+ * Return: returns positive last num
+ */
 int mp(int last)
 {
-	return(last * -1);
-}	
+	return (last * -1);
+}
 /**
  * print_last_digit - prints the last digit of a number.
  * @n: The number to be treated
