@@ -1,5 +1,7 @@
 /**
  * main - we adding baby
+ * @argv: argument pointer
+ * @argc: arg
  * Return: 1 or 0
  */
 #include <stdio.h>
@@ -16,6 +18,7 @@ int main(int argc, char *argv[])
 		{
 		char *arg = argv[i];
 		int is_valid = 1;
+
 		for (j = 0; arg[j] != '\0'; j++)
 		{
 		if (arg[j] < '0' || arg[j] > '9')
@@ -28,11 +31,11 @@ int main(int argc, char *argv[])
 		{
 		sum += atoi(arg);
 		}
-		}	
+		}
 		printf("%d\n", sum);
 		return (0);
 	}
-	else if (argc == 1 )
+	else if (argc == 1)
 	{
 		printf("0\n");
 		return (0);
@@ -42,4 +45,4 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		return (1);
 	}
-}	
+}
