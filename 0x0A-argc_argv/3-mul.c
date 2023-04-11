@@ -24,7 +24,7 @@ int main(int argc, char *argv[])
 	int result;
 
 	if (argc > 1)
-	{
+	{	
 	result = times(atoi(argv[1]), atoi(argv[2]));
 	printf("%d\n", result);
 	}
