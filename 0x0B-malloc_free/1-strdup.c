@@ -18,6 +18,11 @@ char *_strdup(char *str)
 	else
 	{
 		for (i = 0; str[i] != '\0'; i++)
+		if (strdup == NULL)
+		{
+			return (NULL);
+		}
+		else
 		{
 			strdup[i] = str[i];
 		}
