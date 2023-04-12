@@ -27,7 +27,7 @@ ch++;
 j++;
 }
 }
-s = malloc((sizeof(char) * ch) + ac + 1);
+s = malloc((sizeof(char) * ch) +ac + 1);
 if (s == NULL)
 return (NULL);
 
