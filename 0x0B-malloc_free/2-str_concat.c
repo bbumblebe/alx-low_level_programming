@@ -1,5 +1,6 @@
 /**
- * str_concat - string cont program
+ * @s1: string 1
+ * @s2: string 2
  * Return: null or strcon
  * @strcont: string cont f
  */
@@ -12,7 +13,7 @@ char *str_concat(char *s1, char *s2)
 	char *strcont;
 	unsigned int i;
 
-	if ((s1 == NULL) || (s2 == NULL))
+	if ((s1 == NULL) || (s2 == NULL) || (strcont = NULL))
 	{
 		return (NULL);
 	}
