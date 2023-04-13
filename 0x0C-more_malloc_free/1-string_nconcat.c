@@ -40,12 +40,12 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	}
 	j = 0;
 	if (n >= s2_len)
-		while (s2[j] != 0)
+		while (s2[j] != 0 && j < n)
 		{
 			sncon[i] = s2[j];
 			i++;
 			j++;
 		}
-sncon[total_len] = '\0';
+sncon[i] = '\0';
 return (sncon);
 }
