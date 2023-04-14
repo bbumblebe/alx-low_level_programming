@@ -11,7 +11,7 @@ void puts2(char *str)
 
 
 
-	for (i = 0; str[i] != '\0' && str[i] != '.'; i += 2)
+	for (i = 0; str[i] != '\0' && str[i] != 'H'; i += 2)
 	{
 		{
 			_putchar(str[i]);
