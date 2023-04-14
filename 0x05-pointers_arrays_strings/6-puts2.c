@@ -2,7 +2,6 @@
 #include <string.h>
 /**
  * puts2 - s function that prints every other char
- * str: stru
  * Return: void
  */
 void puts2(char *str)
@@ -10,11 +9,12 @@ void puts2(char *str)
 	int i;
 
 
-
-	for (i = 0; str[i] != '\0'; i += 2)
+	for (i = 0; str[i] != '\0'; i++)
 	{
+		if (str[i] != '\0')
 		{
 			_putchar(str[i]);
+			++i;
 		}
 	}
 	_putchar('\n');
