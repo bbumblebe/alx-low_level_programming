@@ -2,21 +2,20 @@
 #include <string.h>
 /**
  * puts2 - s function that prints every other char
+ * str: stru
  * Return: void
  */
 void puts2(char *str)
 {
 	int i;
 
-	for (i = 0; str[i] != '\0'; i++)
+
+
+	for (i = 0; str[i] != '\0'; i += 2)
 	{
-		if (str[i] != '\0')
 		{
 			_putchar(str[i]);
-			if (str[i] != '.')
-			i++;
 		}
 	}
-	if (str[i] != '.')
 	_putchar('\n');
 }
