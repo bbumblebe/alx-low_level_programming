@@ -30,13 +30,13 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	}
 	if (n >= len2)
 		n = len2;
-	ncon = (char *)malloc((len1 + len2 + 1) * sizeof(char));
+	ncon = (char *)malloc((len1 + n + 1) * sizeof(char));
 		if (ncon == NULL)
 			return (NULL);
 
 	for (i = 0; i < len1; i++)
 		ncon[i] = s1[i];
-	for (j = 0; s2[j] != '\0' && j < len2; j++)
+	for (j = 0; s2[j] != '\0' && j < n; j++)
 		ncon[i + j] = s2[j];
 	ncon[i + j] = '\0';
 	return (ncon);
