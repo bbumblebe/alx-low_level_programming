@@ -1,3 +1,9 @@
+/**
+ * array_range - array range
+ * Return: arr or null
+ * @min: minimum
+ * @max: maximum
+ */
 #include <stdio.h>
 #include <stdlib.h>
 int *array_range(int min, int max)
