@@ -3,8 +3,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * add_node - adding node
- * @newnode: this is a new node
+ * add_node - head of node
+ * @str: string
+ * @head: this is a node
  * Return: 0
  */
 list_t *add_node(list_t **head, const char *str)
